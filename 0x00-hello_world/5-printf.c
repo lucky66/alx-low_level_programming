@@ -1,8 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - this is the main function
+ * Return: 0 when succesful
+ */
 int main(void)
 {
-    int result = printf("with proper grammar, but the outcome is a piece of art,\n");
-    (void)result;  // To avoid "unused variable" warning with -Wall option
-    return 0;
+	printf("with proper grammar, but the outcome is a piece of art.\n");
+	return (0);
 }
