@@ -1,2 +1,10 @@
 #!/bin/bash
-gcc -S $CFILE
+
+CFILE="main.c" # Replace with the actual C file name or use a variable
+
+# Extract the file name without the extension
+FILENAME="${CFILE%.*}"
+
+# Compile the C file without linking
+gcc -c "$CFILE" -o "$FILENAME.o"
+
