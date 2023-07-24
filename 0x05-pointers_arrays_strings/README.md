@@ -1,0 +1,1 @@
+Poiniters arrays strings
